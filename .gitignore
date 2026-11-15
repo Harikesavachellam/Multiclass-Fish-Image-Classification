@@ -1,0 +1,31 @@
+# The dataset is far too big for GitHub - everyone downloads it themselves
+data/
+
+# Trained models are large binary files (some are 90+ MB)
+models/*.h5
+models/*.keras
+models/*.pkl
+
+# ...but keep the winning model (15.5 MB) so the app runs straight after cloning
+!models/best_model.h5
+
+# Python leftovers
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Build artefacts
+colab_bundle.zip
+results.zip
+
+# Notes and logs
+install_log.txt
+*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

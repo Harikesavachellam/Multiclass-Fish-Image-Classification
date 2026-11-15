@@ -1,0 +1,19 @@
+Classification report for CNN_Scratch
+============================================================
+                                  precision    recall  f1-score   support
+
+                     animal fish       0.98      0.98      0.98       527
+                animal fish bass       0.00      0.00      0.00        13
+   fish sea_food black_sea_sprat       0.91      0.99      0.95       298
+   fish sea_food gilt_head_bream       0.95      0.58      0.72       305
+   fish sea_food hourse_mackerel       0.98      0.95      0.96       286
+        fish sea_food red_mullet       0.96      1.00      0.98       291
+     fish sea_food red_sea_bream       0.80      0.90      0.85       273
+          fish sea_food sea_bass       0.76      0.93      0.84       327
+            fish sea_food shrimp       1.00      0.96      0.98       292
+fish sea_food striped_red_mullet       0.93      0.98      0.95       293
+             fish sea_food trout       0.99      0.98      0.99       292
+
+                        accuracy                           0.92      3197
+                       macro avg       0.84      0.84      0.83      3197
+                    weighted avg       0.92      0.92      0.92      3197
